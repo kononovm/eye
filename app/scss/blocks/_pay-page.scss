@@ -1,0 +1,29 @@
+.pay {
+	width: 960px;
+	padding: 0 120px;
+	margin: 0 auto 80px auto;
+}
+.pay__title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.pay__item {
+	background: #fff;
+	box-shadow: $box-shadow;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+.pay__head {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.pay__img {
+	width: 40px;
+	height: 40px;
+}
+.pay__subtitle {
+	color: $bg;
+	padding-left: 10px;
+}

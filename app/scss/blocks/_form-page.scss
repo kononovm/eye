@@ -1,0 +1,19 @@
+.h-form {
+	background: #f2f2f2;
+}
+.h-form__title {
+	margin-bottom: 20px;
+	color: $bg;
+}
+.h-form__input {
+	display: block;
+	width: 100%;
+	padding: 15px 0;
+	border-radius: 10px;
+	border: 2px solid $text;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.h-form__btn {
+	width: 100%;
+}

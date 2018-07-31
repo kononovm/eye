@@ -1,0 +1,39 @@
+.footer {
+	background: $bg;
+	padding: 40px 0;
+}
+.footer__wrap {
+	width: 960px;
+	padding: 0 120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__logo {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 300;
+	width: 220px;
+	border-right: 1px solid #fff;
+	& span {
+		font-family: $font-weight;
+	} 
+}
+.footer__contacts {
+	margin-left: 20px;
+	text-align: right;
+}
+.footer__contact {
+	color: #fff;
+	& a {
+		display: block;
+		color: #fff;
+		font-size: 18px;
+		font-family: $font-weight;
+		&:first-child {
+			margin-bottom: 10px;
+		}
+	}
+}

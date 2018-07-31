@@ -1,0 +1,112 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+
+body {
+	font-size: $font-size;
+	min-width: 320px;
+	position: relative;
+	font-family: $font-light;
+	overflow-x: hidden;
+	color: $text;
+	background: #fbfbfb;
+}
+
+b {
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+}
+a, button {
+	outline: none;
+}
+p, h3, h2, ul {
+	margin: 0;
+}
+.owl-dots {
+	display: none;
+}
+.owl-prev {
+	position: absolute;
+	top: calc(50% - 20px);
+	left: 0;
+	width: 40px;
+	height: 40px;
+}
+.owl-next {
+	position: absolute;
+	top: calc(50% - 20px);
+	right: 0;
+	width: 40px;
+	height: 40px;
+	transform: rotate(180deg);
+}
+.btn {
+	font-family: $font-weight;
+	text-transform: uppercase;
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	&--accent {
+		background: $accent;
+		border: 2px solid #fff;
+		box-shadow: $accent-shadow;
+		color: #fff;
+		&:hover {
+			box-shadow: none;
+			transition: .4s;
+		}
+	}
+	&--grey {
+		border: 1px solid $text;
+		color: $text;
+		&:hover {
+			color: $accent;
+			border: 1px solid $accent;
+			transition: .4s;
+		}
+	}
+}
+
+.price {
+	font-family: $font-weight;
+	&--new {
+		font-weight: 900;
+		font-size: 24px;
+		color: $bg;
+		margin-right: 10px;
+	}
+	&--old {
+		position: relative;
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 100%;
+			height: 2px;
+			background: $accent;
+		}
+	}
+}
+
+.h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: $font-weight;
+	color: $bg;
+}
+
+@import "blocks/main-page";
+@import "blocks/adv-page";
+@import "blocks/cat-page";
+@import "blocks/action-page";
+@import "blocks/reviews-page";
+@import "blocks/service-page";
+@import "blocks/delivery-page";
+@import "blocks/pay-page";
+@import "blocks/footer-page";
+@import "blocks/form-page";

@@ -1,0 +1,32 @@
+.delivery {
+	width: 960px;
+	padding: 0 120px;
+	margin: 0 auto 80px auto;
+}
+.delivery__title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+.delivery__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.delivery__item {
+	background: #fff;
+	box-shadow: $box-shadow;
+	border-radius: 10px;
+	padding: 20px;
+	width: 420px;
+}
+.delivery__item-title {
+	font-size: 20px;
+	color: $bg;
+	& span {
+		font-family: $font-weight;
+	}
+}
+.delivery__punkt {
+	color: $bg;
+	margin: 10px 0;
+	text-decoration: underline;
+}

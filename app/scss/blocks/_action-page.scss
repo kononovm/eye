@@ -1,0 +1,51 @@
+.call {
+	background: url('../img/action.jpg');
+	padding: 40px 0;
+	margin-bottom: 80px;
+}
+.call__wrap {
+	width: 960px;
+	padding: 0 120px;
+	margin: 0 auto; 
+	display: flex;
+	color: #fff;
+}
+.call__title {
+	color: #fff;
+}
+.call__text-wrap {
+	flex-grow: 1;
+}
+.call__form {
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+.form__input {
+	width: 460px;
+	display: block;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255, .8);
+	background: rgba(255,255,255, .3);
+	color: #fff;
+	text-align: center;
+	&::placeholder {
+		color: #fff;
+	}
+}
+.form__btn {
+	width: 100%;
+	cursor: pointer;
+}
+.call__desc {
+	padding: 20px 0 40px 0;
+	font-size: 18px;
+}
+.phone--white {
+	color: #fff;
+	margin-top: 10px;
+}
+.phone__number--white {
+	color: #fff;
+}
